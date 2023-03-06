@@ -1,5 +1,6 @@
 ﻿namespace TodoAPI.Models
 {
+    // Описание таблиц в базе данных
     public class info_users
     {
         public int Id { get; set; }

@@ -9,6 +9,8 @@ using TodoAPI.Models;
 
 namespace TodoAPI.Controllers
 {
+    // Автоматически сгенерированный контроллер, хочешь почитать про это?
+    // загляни в usersController.cs
     [Route("api/[controller]")]
     [ApiController]
     public class info_usersController : ControllerBase

@@ -9,6 +9,13 @@ using TodoAPI.Models;
 
 namespace TodoAPI.Controllers
 {
+    // Автоматически сгенерированный код, котроллер для управления апишкой
+    // В методе POST - рекомендуется менять строку:
+    // return CreatedAtAction("Getusers", new { id = users.Id }, users);
+    // на
+    // return CreatedAtAction(nameof(Getusers), new { id = users.Id }, users);
+    // лучше всегда так делать, потому что так было указано на сайте Microsoft
+    // почему так стоит делать? я сам хз - разбираться впадлу
     [Route("api/[controller]")]
     [ApiController]
     public class usersController : ControllerBase
